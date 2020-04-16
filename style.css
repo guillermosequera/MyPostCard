@@ -1,0 +1,72 @@
+body{
+  background: #000;
+}
+
+.mypostcard{
+  background-color: white;
+  background-image: url(https://cdn4.iconfinder.com/data/icons/open-line-5-0/200/programming-code-512.png);
+  background-repeat: repeat; 
+  width: 500px; 
+  height: 350px; 
+  margin: auto;
+  position: absolute; 
+  top:50%; 
+  left: 50%; 
+  transform: translate(-50%, -50%);
+  padding: 15px;
+  border: 5px solid;
+  border-image:   linear-gradient(to right, grey 25%, rgb(21, 35, 99) 25%, rgb(21, 35, 99) 50%,red 50%, red 75%, grey 75%) 5;
+}
+  .mypostcard-header{ 
+    overflow: hidden;
+  }
+
+  #Logotype{
+    max-width: 80px; 
+    float: right;
+    box-shadow: 8px 8px 14px rgba(0, 0, 0, 0.3);
+    border-radius: 4px;
+  }
+
+  .mypostcard-body{
+    overflow: hidden;
+  }
+
+  input{
+    font-size: 18px; 
+    font-family: 'handle',cursive;
+  }
+
+  .mypostcard h1{
+    margin:0;
+  }
+
+  .left-part{float: left; 
+    width: 40%;
+  }
+  .right-part{
+    float: right; 
+    width: 50%;
+  }
+  .righ-part input{
+    display: inherit;
+  }
+
+h1{
+  font-size: 35px
+}
+.mypostcard-footer{
+  padding: 10px; 
+  text-align: center;
+}
+.mypostcard-footer input [type=submit]{
+  border: none; 
+  border-bottom: 1px solid gray; 
+  position: }
+.mypostcard-body input[type=text]{
+  border: none; 
+  border-bottom: 1px solid gray;
+  width: 240px; 
+  margin-bottom: 10px; 
+  padding: 5px;
+}
